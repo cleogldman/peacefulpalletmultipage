@@ -1,6 +1,6 @@
 :root {
     --header-height: 130px;
-    --menu-bg: #9ae9cf;
+    --menu-bg: #9ae9cf00;
 }
 
 body {
@@ -13,7 +13,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     height: var(--header-height);
     position: fixed;
     z-index: 10;
@@ -54,7 +53,7 @@ nav a {
 }
 
 
-@media (min-width: 640px) {
+@media (min-width: 1020px) {
     nav {
         flex-direction: row;
         height: var(--header-height);
@@ -74,12 +73,10 @@ nav a {
         width: 100%;
     }
 
-    main {
-        margin-top: var(--header-height);
-    }
-
+    
     .btn-toggle-menu {
         visibility: hidden;
+        width:0;
     }
 
 }
