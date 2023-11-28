@@ -91,6 +91,20 @@ h2{
 
 /* benefits page starts */
 
+.benefits main {
+    background: url('/assets/benefits background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
 h3{
     color: #080808;
     text-align: center;
