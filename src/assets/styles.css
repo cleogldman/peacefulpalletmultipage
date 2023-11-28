@@ -208,3 +208,29 @@ h9{
     }
 
 }
+
+/* Technique Page Starts */
+
+.journalphoto {
+    display: flex;
+    align-content: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+h19 {
+    color: #000;
+    font-family: Monserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h20 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
