@@ -312,3 +312,82 @@ h23 {
     font-weight: 500;
     line-height: normal 
 }
+
+/* Gallery Page Starts */
+
+.sarahphoto {
+    display: flex;
+    align-content: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    max-width: 40%;
+}
+h10 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h11 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.meghanphoto{
+    display: flex;
+    align-content: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    max-width: 40%;
+}
+
+h12 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h13 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.jacksonphoto {
+    display: flex;
+    align-content: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    max-width: 40%;
+}
+
+h14 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h15 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
