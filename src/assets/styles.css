@@ -123,59 +123,11 @@ h2{
     background: white;
 }
 
-h4{
-    color: #000;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 40px;
-    margin-bottom: 0;
-    background: white;
-}
 
 .physcialdescription{
     display: flex;
     justify-content: center;
 }
-h5{
-    color: #000;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    background: white;
-}
-
-
-h6{
-    color: #000;
-    font-family: Montserrat;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 0%;
-    background: white;
-}
-
-h7{
-    color: #000;
-    font-family: Montserrat;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 40px;
-    margin-bottom: 0;
-    margin-top: 50px;
-    background: white;
-}
-
 
 ul{
     color: #000;
@@ -191,21 +143,6 @@ ul{
     max-width: 800px;
 }
 
-
-
-h9{
-    color: #000;
-    font-family: Montserrat;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 0%;
-    margin-bottom: 5%; 
-    background: white;
-}
 
 .home {
     overflow-y: hidden;
@@ -237,22 +174,6 @@ h9{
     max-width: 40%;
 }
 
-h16 {
-    color: #000;
-    font-family: Monserrat;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-}
-
-h17 {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
 
 .collagephoto {
     display: flex;
@@ -262,22 +183,6 @@ h17 {
     max-width: 40%;
 }
 
-h18 {
-    color: #000;
-    font-family: Monserrat;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-}
-
-h19 {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
 
 .drawphoto {
     display: flex;
@@ -287,22 +192,6 @@ h19 {
     max-width: 40%;
 }
 
-h20 {
-    color: #000;
-    font-family: Monserrat;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-}
-
-h21 {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal
-}
 
 .coloringphoto {
     display: flex;
@@ -312,22 +201,6 @@ h21 {
     max-width: 40%;
 }
 
-h22 {
-    color: #000;
-    font-family: Monserrat;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-}
-
-h23 {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal 
-}
 
 /* Gallery Page Starts */
 
@@ -338,23 +211,6 @@ h23 {
     padding-right: 25%;
     max-width: 40%;
 }
-h10 {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-h11 {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
 
 .meghanphoto{
     display: flex;
@@ -364,46 +220,10 @@ h11 {
     max-width: 40%;
 }
 
-h12 {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-h13 {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
 .jacksonphoto {
     display: flex;
     align-content: center;
     padding-left: 25%;
     padding-right: 25%;
     max-width: 40%;
-}
-
-h14 {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-h15 {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
