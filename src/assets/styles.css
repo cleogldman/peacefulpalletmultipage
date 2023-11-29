@@ -30,13 +30,21 @@ nav {
     display: flex;
 }
 
+img {
+    display: flex;
+    align-content: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    max-width: 40%; 
+}
+
 p {
     font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-width: 90%;
-max-width: 800px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 90%;
+    max-width: 800px;
 }
 
 
@@ -163,14 +171,3 @@ ul{
     }
 
 }
-
-/* Technique Page Starts */
-
-img {
-    display: flex;
-    align-content: center;
-    padding-left: 25%;
-    padding-right: 25%;
-    max-width: 40%; 
-}
-
