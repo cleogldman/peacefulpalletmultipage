@@ -1,6 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
+    font-family: Montserrat, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -14,15 +15,33 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 13px;
+    padding-right: 13px;
+}
 
 nav {
     display: flex;
 }
 
+p {
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 90%;
+max-width: 800px;
+}
+
 
 nav a{
     color: #000;
-    font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -35,9 +54,8 @@ nav a{
 .homepage-link a:-webkit-any-link {
     text-decoration: none;
 }
-h1 {
+header h1 {
     color: #000;
-    font-family: Montserrat;
     font-size: 30px;
     text-decoration: none;
     font-style: normal;
@@ -48,7 +66,6 @@ h1 {
 
 .special-letter{
     color: #000;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -61,9 +78,8 @@ h2{
     font-family: 'Montserrat', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: normal;
-    max-width: 800px;
     background: rgba(255,255, 255, 1);
 }
 
@@ -74,11 +90,7 @@ h2{
     background: url('/assets/homebg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
     position: relative;
-    align-content: center;
-    justify-content: center;
     flex-wrap: wrap;
     padding-left: 13px;
     padding-right: 13px;
@@ -95,32 +107,24 @@ h2{
     background: url('/assets/benefits background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-left: 13px;
-    padding-right: 13px;
 }
 
-h3{
+.benefits p {
+    background: white;
+}
+
+.overalldescription{
     color: #080808;
     text-align: center;
-    font-family: Montserrat;
-    font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin: 50px;
+    margin-right: 50px;
     background: white;
 }
 
 h4{
     color: #000;
-    font-family: Montserrat;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -136,7 +140,6 @@ h4{
 }
 h5{
     color: #000;
-    font-family: Montserrat;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -145,10 +148,7 @@ h5{
     margin-bottom: 0%;
     background: white;
 }
-.physicalbenefits{
-    display: flex;
-    justify-content: center;
-}
+
 
 h6{
     color: #000;
@@ -176,12 +176,8 @@ h7{
     background: white;
 }
 
-.emotionaldescription{
-    display: flex;
-    justify-content: center;
-}
 
-h8{
+ul{
     color: #000;
     font-family: Montserrat;
     font-size: 36px;
@@ -189,13 +185,13 @@ h8{
     font-weight: 400;
     line-height: normal;
     margin-top: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 20px;
     background: white;
+    width: 90%; 
+    max-width: 800px;
 }
-.emotionalbenefits{
-    display: flex;
-    justify-content: center;
-}
+
+
 
 h9{
     color: #000;
@@ -216,7 +212,7 @@ h9{
 }
 
 @media (min-width: 1020px) {
-    h1{
+    header h1{
         font-size: 55px;    
         min-width: 567px;
     }
