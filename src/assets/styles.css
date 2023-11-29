@@ -166,64 +166,11 @@ ul{
 
 /* Technique Page Starts */
 
-.journalphoto {
+img {
     display: flex;
     align-content: center;
     padding-left: 25%;
     padding-right: 25%;
-    max-width: 40%;
+    max-width: 40%; 
 }
 
-
-.collagephoto {
-    display: flex;
-    align-content: center;
-    padding-left: 25%;
-    padding-right: 25%;
-    max-width: 40%;
-}
-
-
-.drawphoto {
-    display: flex;
-    align-content: center;
-    padding-left: 25%;
-    padding-right: 25%;
-    max-width: 40%;
-}
-
-
-.coloringphoto {
-    display: flex;
-    align-content: center;
-    padding-left: 25%;
-    padding-right: 25%;
-    max-width: 40%;
-}
-
-
-/* Gallery Page Starts */
-
-.sarahphoto {
-    display: flex;
-    align-content: center;
-    padding-left: 25%;
-    padding-right: 25%;
-    max-width: 40%;
-}
-
-.meghanphoto{
-    display: flex;
-    align-content: center;
-    padding-left: 25%;
-    padding-right: 25%;
-    max-width: 40%;
-}
-
-.jacksonphoto {
-    display: flex;
-    align-content: center;
-    padding-left: 25%;
-    padding-right: 25%;
-    max-width: 40%;
-}
