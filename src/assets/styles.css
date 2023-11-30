@@ -28,6 +28,7 @@ main {
 
 nav {
     display: flex;
+    background: white;
 }
 
 img {
