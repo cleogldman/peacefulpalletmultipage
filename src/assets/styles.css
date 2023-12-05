@@ -36,7 +36,7 @@ img {
     align-content: center;
     padding-left: 25%;
     padding-right: 25%;
-    max-width: 40%; 
+    max-width: 50%; 
 }
 
 p {
@@ -46,7 +46,7 @@ p {
     line-height: normal;
     width: 90%;
     max-width: 800px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 100px;
 }
 
@@ -166,7 +166,7 @@ ul{
     }
 
     h2 {
-        font-size: 48px;
+        font-size: 32px;
     }
 
     .home main {
@@ -175,7 +175,7 @@ ul{
 
     p {
         color: #000;
-        font-size: 30px;
+        font-size: 25px;
         font-style: normal;
         font-weight: 500;
     }
@@ -193,6 +193,10 @@ ul{
 
     .benefitsp {
         font-size: 30px;
+    }
+
+    img {
+        max-width: 30%;
     }
 
 }
