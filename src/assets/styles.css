@@ -184,6 +184,7 @@ ul{
 
     h2 {
         font-size: 32px;
+        max-width: 60%;
     }
 
     .home main {
