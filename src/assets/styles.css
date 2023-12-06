@@ -47,6 +47,7 @@ p {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    background: white;
 }
 
 p1 {
@@ -136,11 +137,6 @@ h2{
     background-size: cover;
 }
 
-.benefits p {
-    background: white;
-    font-size: 16px;
-    text-align: left;
-}
 
 .overalldescription{
     color: #080808;
@@ -193,17 +189,21 @@ ul{
 
     p {
         font-size: 20px;
+        max-width: 80%;
+        background: white;
     }
 
     p1 {
         background: white;
         margin-top: 15px;
         font-weight: 500;
+        font-size: 20px;
+        max-width: 85%;
     }
 
     ul {
         color: #000;
-        font-size: 36px;
+        font-size: 30px;
         font-style: normal;
         font-weight: 400;
         max-width: 90%;
