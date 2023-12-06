@@ -44,10 +44,22 @@ p {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    width: 90%;
+    width: 60%;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+p2 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 95%;
     max-width: 800px;
     text-align: left;
-    margin-bottom: 100px;
+    margin-bottom: 100px; 
+    margin-top: 15px;
 }
 
 
@@ -92,6 +104,8 @@ h2{
     font-weight: 700;
     line-height: normal;
     background: rgba(255,255, 255, 1);
+    margin-top: 55px;
+    margin-bottom: 15px;
 }
 
 
@@ -161,7 +175,7 @@ ul{
 
 @media (min-width: 1020px) {
     header h1{
-        font-size: 55px;    
+        font-size: 50px;    
         min-width: 567px;
     }
 
@@ -175,7 +189,7 @@ ul{
 
     p {
         color: #000;
-        font-size: 25px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 500;
     }
@@ -196,7 +210,13 @@ ul{
     }
 
     img {
-        max-width: 30%;
+        max-width: 25%;
+    }
+    p2 {
+        font-size: 18px;
+        font-weight: 500;
+        width: 62%;
+        text-align: center;
     }
 
 }
