@@ -41,19 +41,21 @@ img {
 
 p {
     color: #080808;
-    text-align: center;
+    text-align: left;
     font-family: Montserrat;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     background: white;
+    max-width: 90%;
 }
 
 p1 {
     background: white;
     margin-top: 15px;
     margin-bottom: 15px;
+    max-width: 90%;
 }
 
 p2 {
