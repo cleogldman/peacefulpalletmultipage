@@ -86,12 +86,13 @@ p2 {
 
 nav a{
     color: #000;
-    font-size: 18px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     width: auto;
     text-decoration: none;
+    margin-top: 20%;
 }
 
 .homepage-link a:-webkit-any-link {
@@ -262,5 +263,7 @@ ul{
     }
     nav a {
         margin-left: 50px;
+        font-size: 18px;
+        
     }
 }
