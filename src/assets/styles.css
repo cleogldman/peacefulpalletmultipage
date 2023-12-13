@@ -33,13 +33,13 @@ nav {
     display: flex;
     background: white;
 }
-a, a h1 {
+a, a h1, {
     transition: 0.5s transform ease;
     transform-origin: left center;
 
 }
 
-a:hover, a:focus, a:hover h1, a:focus h1{
+a:hover, a:focus, a:hover h1, a:focus h1, {
     transform: scale(1.1);
 
 }
@@ -205,7 +205,7 @@ ul{
     }
 
     p {
-        font-size: 20px;
+        font-size: 25px;
         max-width: 80%;
         background: white;
     }
