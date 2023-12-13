@@ -144,7 +144,7 @@ h2{
 .home main {
     height: 100%;
     max-height: calc(100vh - 160px);
-    background: url('/assets/homebg.png');
+    background: url('../assets/homebg.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -159,7 +159,7 @@ h2{
 }
 
 .benefits main {
-    background: url('/assets/benefits background.png');
+    background: url('../assets/benefits background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
