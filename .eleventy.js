@@ -4,7 +4,7 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 module.exports = function(eleventyConfig) {
   let p = {}
   if (process.env.NODE_ENV === 'production') {
-    console.log('running in production')
+    console.log('running in production');
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
     p={ pathPrefix: "/peacefulpalletmultipage/"}
   }
