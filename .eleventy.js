@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
   let p = {}
   if (process.env.NODE_ENV === 'production') {
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-    p={ pathPrefix: "/runway-radar/"}
+    p={ pathPrefix: "/peacefulpalletmultipage/"}
   }
   
     eleventyConfig.addPassthroughCopy("src/assets");
