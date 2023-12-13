@@ -124,7 +124,7 @@ h3{
     font-weight: 700;
     line-height: normal;
     background: #ffffff;
-    margin-top: 35px;
+    margin-top: 15%;
     margin-bottom: 20px;
 }
 
@@ -267,5 +267,5 @@ ul{
         font-size: 18px;
         margin-top: 0;
     }
-    
+
 }
