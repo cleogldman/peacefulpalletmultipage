@@ -7,7 +7,7 @@ module.exports = function(eleventyConfig) {
   if (process.env.NODE_ENV === 'build') {
     console.log('running in production');
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-    p={ pathPrefix: "/peacefulpalletmultipage/"}
+    p={ pathPrefix: "/peacefulpalette/"}
   }
   
     eleventyConfig.addPassthroughCopy("src/assets");
