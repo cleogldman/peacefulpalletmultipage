@@ -77,6 +77,7 @@ nav a {
     .btn-toggle-menu {
         visibility: hidden;
         width:0;
+        margin: 0;
     }
 
 }

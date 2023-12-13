@@ -1,4 +1,6 @@
 body {
+    max-width: 100vw;
+    overflow-x: hidden;
     margin: 0;
     height: 100vh;
     font-family: Montserrat, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +17,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -29,6 +32,16 @@ main {
 nav {
     display: flex;
     background: white;
+}
+a, a h1 {
+    transition: 0.5s transform ease;
+    transform-origin: left center;
+
+}
+
+a:hover, a:focus, a:hover h1, a:focus h1{
+    transform: scale(1.1);
+
 }
 
 img {
@@ -184,7 +197,7 @@ ul{
 
     h2 {
         font-size: 36px;
-        max-width: 60%;
+        max-width: 100%;
     }
 
     .home main {
